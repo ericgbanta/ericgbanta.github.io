@@ -1,20 +1,54 @@
 site_name: Eric Banta
+nav:
+  - Home: index.md
+  - Portfolio:
+    - portfolio/Data Science Portfolio.md
+    - Classification Projects:
+      - portfolio/Classification Projects/Pokemon_Battle_Prediction.ipynb
+    - NLP Projects:
+      - portfolio/NLP Projects/StarWarsNLP.ipynb
+  - Blog:
+    - blog/under-construction.md
+  - Contact:
+    - contact.md
 theme:
-  logo: img/heart-on-fire.png
+  font:
+    text: Manrope
+    code: Jetbrains Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+  icon:
+    logo: octicons/home-16
   name: material
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      accent: indigo
+      primary: black
       toggle:
         name: Switch to dark mode
         icon: octicons/sun-16
 
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       toggle:
         name: Switch to light mode
         icon: octicons/moon-16
 
+extra:
+  generator: false
+
+copyright: Copyright &copy; 2022 Eric Banta
+
 markdown_extensions:
   - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true 
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
