@@ -1,3 +1,3 @@
 # Welcome to my site!
 
-[See here](ericbanta.co)
+[See here](https://ericbanta.co/)
