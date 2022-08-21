@@ -1,1 +1,26 @@
-site_name: My Docs
+site_name: Eric Banta
+theme:
+  logo: img/heart-on-fire.png
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        name: Switch to dark mode
+        icon: octicons/sun-16
+
+    - scheme: slate
+      toggle:
+        name: Switch to light mode
+        icon: octicons/moon-16
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+- search
+- mkdocstrings
+- mermaid2
+- mkdocs-jupyter
