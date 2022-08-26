@@ -9,6 +9,7 @@ nav:
       - portfolio/NLP Projects/StarWarsNLP.ipynb
   - Blog:
     - blog/under-construction.md
+    - blog/my-first-blog.md
   - Contact:
     - contact.md
 theme:
