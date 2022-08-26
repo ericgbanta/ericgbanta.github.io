@@ -1,2 +1,2 @@
 # Topic: TBD
-Coming soon :smile:
+:smile: Coming soon :smile:
